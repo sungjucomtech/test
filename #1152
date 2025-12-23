@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    char A[1000000];
+    int T = 0;
+    
+    
+    while(scanf("%s", A) != EOF)
+    {
+        T++;
+    }
+    printf("%d", T);
+
+}
